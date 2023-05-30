@@ -1,0 +1,26 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+section{
+  height: 100vh;
+}
+.navbar {
+  background-color: #2a32af;
+}
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+   color: #fff;
+}
+#cabecalho .nav .nav-link.active {
+  background-color: #3038af;
+}
+
+
+.social-links li{
+  list-style: none;
+  display: inline;
+}
+.social-links a{
+   text-decoration: none;
+}
