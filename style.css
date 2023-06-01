@@ -1,26 +1,96 @@
 body {
-  font-family: Roboto, sans-serif;
+   font-family: Roboto, sans-serif;
 }
-section{
-  height: 100vh;
+section {
+   height: 100vh;
+}
+.color-section {
+   background-color: #f0f1fa;
 }
 .navbar {
-  background-color: #2a32af;
+   background-color: #2a32af;
 }
 #cabecalho .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover{
+.navbar-brand:hover {
    color: #fff;
 }
 #cabecalho .nav .nav-link.active {
-  background-color: #3038af;
+   background-color: #3038af;
+}
+.btn-contato {
+   background-color: #3038af;
+   color: #fff;
+   padding: 10px 55px;
 }
 
-
-.social-links li{
-  list-style: none;
-  display: inline;
+.social-links li {
+   list-style: none;
+   display: inline;
 }
-.social-links a{
+.social-links a {
    text-decoration: none;
 }
+
+/*
+body {
+   font-family: Roboto, sans-serif;
+}
+.navbar {
+   background-color: #e15f41;
+}
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio.nav-link.active:hover,
+button.nav-link.text-colored.active {
+   color: #fff;
+}
+.nav-cardapio .nav-link.text-colored {
+   color: #e15f41;
+}
+.button:hover {
+   color: #fff;
+}
+#cabecalho .nav .nav-link.active {
+   background-color: #fff;
+   color: #e15f41;
+}
+.section-title {
+   font-family: Pacifico, cursive;
+}
+.navbar-toggler {
+   background-color: #ffeae6;
+}
+.text-clored {
+   color: #e15f41;
+}
+
+#sobre-o-restaurante,
+#cardapio {
+   background-color: #ffeae6;
+}
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+   background-color: #e15f41;
+   color: #fff;
+}
+.nav-cardapio .nav-link:hover {
+   color: #e15f41;
+}
+.nav-cardapio.nav-link.active:hover {
+   color: #fff;
+}
+.social-links li{
+   list-style: none;
+   display: inline;
+}
+.social-links a{
+    text-decoration: none;
+}
+@media (max-width: 767px){
+   .carrousel-item img{
+      height: 280px;
+   }
+}
+*/
